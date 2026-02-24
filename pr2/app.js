@@ -52,8 +52,9 @@ app.patch("/products", (req, res) => {
 });
 
 app.delete("/products/:id", (req, res) => {
+	const deletedProduct = products[req.params.id];
 	delete products[req.params.id];
-	res.json(products);
+	res.json(deletedProduct);
 });
 
 app.listen(port, () => {
