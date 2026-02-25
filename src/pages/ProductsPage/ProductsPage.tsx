@@ -9,6 +9,7 @@ import Loading from "../../components/Loading.tsx";
 import Container from "../../components/Container.tsx";
 import Toolbar from "../../components/Toolbar.tsx";
 import Main from "../../components/Main.tsx";
+import { Product } from "../../types.ts";
 
 export default function ProductsPage() {
 	const [products, setProducts] = useState<Product[]>([]);

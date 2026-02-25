@@ -8,6 +8,7 @@ import Button from "./Button.tsx";
 import Label from "./Label.tsx";
 import { nanoid } from "nanoid";
 import clsx from "clsx";
+import { Product } from "../types.ts";
 
 type ModalMode = "create" | "edit";
 

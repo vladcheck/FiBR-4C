@@ -1,3 +1,4 @@
+import { Product } from "../types.ts";
 import ProductItem from "./ProductItem.tsx";
 
 export default function ProductsList({

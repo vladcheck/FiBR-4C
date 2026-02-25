@@ -1,5 +1,6 @@
 import { Star, Trash2 } from "lucide-react";
 import Button from "./Button.tsx";
+import { Product } from "../types.ts";
 
 export default function ProductItem({
 	product,
