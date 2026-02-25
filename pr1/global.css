@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
 }
-.main .product-card {
+.main .user-card {
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -20,13 +20,13 @@
   box-shadow: 2px 2px 4px rgba(35, 35, 35, 0.464);
   transition: all 200ms ease-out;
 }
-.main .product-card:hover {
+.main .user-card:hover {
   transform: rotate(-1deg) scale(1.05);
 }
-.main .product-card .product-card__price {
+.main .user-card .user-card__age {
   font-size: 1.6rem;
 }
-.main .product-card .add-to-cart-btn {
+.main .user-card .add-to-cart-btn {
   width: max-content;
   padding: 8px 16px;
 }

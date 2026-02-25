@@ -1,1 +1,9 @@
+.env
 node_modules
+dist
+pdf
+*.pdf
+.DS_Store
+.vscode
+src/**/*.css
+src/**/*.css.map

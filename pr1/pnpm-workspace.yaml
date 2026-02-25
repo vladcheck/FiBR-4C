@@ -1,2 +1,6 @@
 onlyBuiltDependencies:
-  - '@parcel/watcher'
+  - "@scarf/scarf"
+  - "@parcel/watcher"
+  - core-js
+  - core-js-pure
+  - esbuild
