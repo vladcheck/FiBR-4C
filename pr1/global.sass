@@ -1,7 +1,7 @@
 $shadow: 2px 2px 4px rgba(35, 35, 35, 0.464)
-$product-card-width: 400px
+$user-card-width: 400px
 $gap: 10px
-$price-font-size: 1.6rem
+$age-font-size: 1.6rem
 $base-transition-time: 200ms
 
 @mixin rotate-and-scale($deg,$scale)
@@ -24,8 +24,8 @@ $base-transition-time: 200ms
     justify-content: center
     align-items: center
 
-    .product-card
-        width: $product-card-width
+    .user-card
+        width: $user-card-width
         display: flex
         flex-direction: column
         gap: $gap
@@ -37,8 +37,8 @@ $base-transition-time: 200ms
         &:hover
             @include rotate-and-scale(-1deg,1.05)
 
-        .product-card__price
-            font-size: $price-font-size
+        .user-card__age
+            font-size: $age-font-size
 
         .add-to-cart-btn
             width: max-content
