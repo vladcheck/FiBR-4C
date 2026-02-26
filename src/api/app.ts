@@ -3,7 +3,7 @@ import { ReasonPhrases, StatusCodes } from "http-status-codes";
 import express, { type Request, type Response } from "express";
 import cors from "cors";
 import swaggerUi from "swagger-ui-express";
-import swaggerSpec from "@/swagger";
+import swaggerSpec from "@/swagger.ts";
 
 const ID_SIZE = 6;
 const PORT = process.env.BACKEND_PORT || 3001;
