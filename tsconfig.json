@@ -9,6 +9,20 @@
     "types": [
       "node",
     ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "components/*": [
+        "./src/components/*"
+      ],
+      "api/*": [
+        "./src/api/*"
+      ],
+      "pages/*": [
+        "./src/pages/*"
+      ]
+    },
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
